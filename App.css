@@ -1,0 +1,76 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+  background-color: rgba(64, 118, 233, 0.952);
+  height:500px;
+  width:400px;
+  position:absolute;
+  left:3rem;
+  top:10rem;
+  border-radius: 7%;
+  
+}
+.box{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  padding-block-start: 4rem;
+}
+button{
+  padding:0.4rem;
+  border-radius: 4%;
+  border: none;
+  background-color: rgba(64, 118, 233, 0.952);
+  pointer-events: all;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+button:hover{
+  background-color:  rgba(78, 126, 231, 0.952);
+}
+label{
+  font-weight: bold;
+}
+select{
+  padding-top: 0.3rem;
+  width:80px;
+  height:30px;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  font-weight:bold;
+  cursor: pointer;
+}
+select:hover{
+  background-color:   rgba(64, 118, 233, 0.952);
+}
+.box select{
+  margin: 2px 0 14px 0;
+}
+.box input{
+  margin: 2px 0 14px 0;
+}
+input{
+  height:25px;
+}
+
+.box button{
+  margin: 2px 0 14px 0;
+}
+.title{
+  padding-left: 5rem;
+  padding-top: 5rem;
+}
+.title::after{
+  content: "";
+  position: absolute;
+  background-color: rgba(59, 115, 236, 0.952);
+  width:14rem;
+  height:3px;
+  border-radius: 10%;
+}
